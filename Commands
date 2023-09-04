@@ -1,0 +1,61 @@
+wc -w demo.txt  -> count the words
+wc -c demo.txt -> count the words
+
+17. cut
+used to cut a specific sections by byte position, character, and field and writes them to standard output
+Eg: cut -b 4- demo.txt 
+
+
+18. paste
+paste command is that it joins the files horizontally by separating the lines from each file with a tab as delimiter to get the required output.
+Eg: paste demo.txt file.txt
+
+
+19. tar
+used for compress and uncompress folder/files
+compress: Eg: tar -cf test.tar test -> f stand for file name, c for creating (tar extention of folder)
+uncompress: Eg: tar -xf test.tar -> x stand for extract
+
+20. head
+used to view the first lines of any text file
+Eg: head -n 3 file.txt
+
+21. tail
+display the last ten lines of a text file.
+Eg: tail -n 3 file.txt
+
+22. grep
+(global regular expression print) it is used to search a pattern/word/sentence in a file file
+Eg: grep "is" file.txt
+
+23. chmod
+access permission of file to executable mode
+Eg: chmod +x file.sh
+
+24. chown
+is used to change a file's ownership, directory, or symbolic link for a user or group.
+`Eg: chown renjith prejin -> here the existing ownership prejin handover to renjith'
+
+25. expr
+used to evaluate a given expression
+Eg: expr 6 + 2 -> and return o/p as 8.
+
+26. usermod
+add a new user to machine
+Eg: sudo usermod -c test
+
+27. userdel
+delete a user from machine
+Eg: sudo usrdel test
+
+28. df
+get report on the system disk space
+Eg: df
+
+29. top
+similar to task manager in WIN. displays the running process
+Eg: top
+
+30. ps
+display current process with process id (PID)
+Eg: ps
